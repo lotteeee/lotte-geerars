@@ -1,0 +1,153 @@
+body{
+	font-family: Raleway, Verdana, sans-serif;
+	background-color: white;
+	}
+	
+img {
+	width: 100%;
+	}
+
+.flex-container {
+	display: flex;
+	flex-flow: row;
+	font-size: 40px;
+	width: 100%;
+	border: 1px #ccc solid;
+	position: fixed;
+	}
+
+.flex-item{
+	background-color: black;
+	border: 1px #ccc solid;
+	width: 12.5%;
+	color: white;
+}
+.meer {
+	margin-top: 50px;
+}
+
+a:hover {
+	color: yellow;
+}
+
+a:active {
+	color: red;
+}
+
+a:visited {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	padding: 0px;
+	color: white;
+}
+
+h1 {
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	font-size: 12px;
+}
+.grotschilderingen {
+	background-color: #EFF2B6;
+}
+.spijkerschrift {
+	background-color: #B6B4E6;
+}
+.postduiven {
+	background-color: #90C3D4;
+}
+.telefoon {
+	background-color: #F2B6D1;
+}
+.internet {
+	background-color: #9DE5C4;
+}
+.mobiel {
+	background-color: #FFB6C1;
+}
+.facebook {
+	background-color: #B0E0E6;
+}
+.instagram {
+	background-color: #e6e6fa;
+}
+#zwart {
+	color: black;
+}
+.container {
+	display: flex;
+	margin-top: 20px;
+	flex-direction: column;
+}
+.box1 {
+	margin: 20px;
+}
+
+@media only screen and (min-width: 768px){ 
+	img {
+		
+		margin-top: 20px;
+	}
+	.container {
+		flex-flow: row;
+	}
+	.plaatje {
+		flex: 1;
+	}	
+	.box1 {
+		flex: 1;
+	}
+	p {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (min-width: 1280px){ 
+	img {
+		width: 45%;
+		margin-top: 20px;
+	}
+	p {
+		font-size: 20px;
+	}
+	.container {
+		flex-flow: row;
+	}
+	.plaatje {
+		flex: 1;
+	}	
+	.box1 {
+		flex: 1;
+	}
+}
+
+@media only screen and (min-width: 1444px){ 
+	img {
+		width: 45%;
+		margin-top: 20px;
+	}
+	p {
+		font-size: 25px;
+	}
+	.container {
+		flex-flow: row;
+		margin-left: 10%;
+	}
+	.plaatje {
+		flex: 1;
+	}	
+	.box1 {
+		flex: 1;
+	}
+}
+
+
